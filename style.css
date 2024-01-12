@@ -101,3 +101,42 @@ nav li a{
     }
     
 }
+
+/* main styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+/* teams style */
+
+.tm-cont{
+    display: flex;
+    align-items: center;
+}
+
+.tm-img-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.tm-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.tm-cont-titl{
+    font-size: 2.8rem;
+}
+
+.tm-cont-titl .ql{
+    color: #727272;
+    font-weight: 500;
+}
+
+.tm-cont-titl .ft{
+    color: #ff900e;
+    font-weight: 700;
+}
