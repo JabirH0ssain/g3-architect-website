@@ -116,6 +116,38 @@ main{
     font-weight: 700;
 }
 
+/* Features section styles */
+
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.features .section-title{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+
+.feat-cont .card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+.tnyrs-badge{
+    border-radius: 8px;
+    background: #ff900e;
+    color: #fff;
+    width: 342px;
+}
+
+.tnyrs-badge h2{
+    font-size: 4rem;
+    padding: 40px;
+}
 
 /* Facts Section */
 
