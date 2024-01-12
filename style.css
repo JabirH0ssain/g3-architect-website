@@ -137,18 +137,31 @@ main{
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.6);
 }
 
+.feat-img img{
+    width: 90%;
+    margin-left: 70px;
+}
+
 .tnyrs-badge{
     border-radius: 8px;
     background: #ff900e;
     color: #fff;
     width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
 }
 
 .tnyrs-badge h2{
     font-size: 4rem;
-    padding: 40px;
+    margin: 0;
 }
 
+.tnyrs-badge p{
+    font-size: 1,5rem;
+
+}
 /* Facts Section */
 
 .facts-card-cont{
@@ -213,9 +226,20 @@ main{
     nav,
     .tm-cont,
     .facts-card-cont,
+    .features,
     .spons-img-cont
     {
         flex-direction: column;
+    }
+
+    .feat-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tnyrs-badge{
+        position: static;
+        max-width: 300px;
     }
 
     .tm-img-cont{
@@ -242,6 +266,7 @@ main{
         padding: 50px;
     }
     nav,
+    .features,
     .tm-cont,
     .spons-img-cont
     {
